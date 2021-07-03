@@ -15,12 +15,12 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Contact',
+        title: 'Experience',
         url: '#',
         cName: 'nav-links'
     },
     {
-        title: 'Home',
+        title: 't5',
         url: '#',
         cName: 'nav-links-mobile'
     },
