@@ -1,3 +1,7 @@
+import { createGlobalStyle } from 'styled-components';
+import TransitionStyles from './TransitionStyles';
+
+const GlobalStyle = createGlobalStyle`
 .NavbarItems {
     background: #222831;
     height: 80px;
@@ -137,12 +141,9 @@
     Button {
         display: none;
     }
-}
 
+    
+  ${TransitionStyles};
+`;
 
-/* Colours found here: https://colorhunt.co/palette/222831393e46ffd369eeeeee
-Dark Charcoal: #222831
-Dark Grey: #393E46
-Yellow: #FFD369
-White: #EEEEEE 
-*/
+export default GlobalStyle;

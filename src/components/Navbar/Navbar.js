@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
 import { Button } from '../Buttons/Button';
 import './Navbar.css'
+import { GlobalStyle } from '../styles/Global'
 
 class Navbar extends Component { 
     state = { clicked : false }
